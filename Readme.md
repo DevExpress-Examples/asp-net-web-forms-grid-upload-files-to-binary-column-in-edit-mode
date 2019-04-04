@@ -4,7 +4,7 @@
 * [CustomExceptions.cs](./CS/App_Code/CustomExceptions.cs) (VB: [CustomExceptions.vb](./VB/App_Code/CustomExceptions.vb))
 * [CreateSimpleDBScript.sql](./CS/CreateSimpleDBScript.sql)
 * **[Default.aspx](./CS/Default.aspx) (VB: [Default.aspx](./VB/Default.aspx))**
-* [Default.aspx.cs](./CS/Default.aspx.cs) (VB: [Default.aspx](./VB/Default.aspx))
+* [Default.aspx.cs](./CS/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/Default.aspx.vb))
 <!-- default file list end -->
 # ASPxGridView - How to upload files in Edit mode and save them in a binary column
 
