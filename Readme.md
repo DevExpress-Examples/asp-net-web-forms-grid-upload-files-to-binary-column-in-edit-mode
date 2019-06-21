@@ -7,6 +7,9 @@
 * [Default.aspx.cs](./CS/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/Default.aspx.vb))
 <!-- default file list end -->
 # ASPxGridView - How to upload files in Edit mode and save them in a binary column
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/t285123/)**
+<!-- run online end -->
 
 
 <p>This example demonstrates how to implement a possibility to upload and save different files in Edit mode. In this solution, files are saved to the database. It is also possible to immediately delete a just uploaded file. </p>
