@@ -66,7 +66,7 @@ protected void SqlDataSource1_Updating(object sender, System.Web.UI.WebControls.
 }
 ```
 
-When a user clicks the **Delete** button, the callback control sends a callback to the server and passes the uploaded file's name to the server. On the server, handle the callback control's `Callback` event to delete the file's data from the current session. To complete the delete operation on the client, handle the callback control's `CallbackComplete` event. In the handler, clear the label's text and make the **Delete** button invisible.
+When a user clicks the **Delete** button, the callback control sends a callback to the server and passes the uploaded file's name to the server. On the server, handle the callback control's `Callback` event to delete the file's data from the current session. To complete the delete operation on the client, handle the callback control's `CallbackComplete` event. In the handler, clear the label's text and hide the **Delete** button.
 
 ```js
 function OnClick(s, e) {
