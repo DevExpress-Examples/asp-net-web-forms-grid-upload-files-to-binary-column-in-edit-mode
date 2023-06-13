@@ -3,7 +3,7 @@
 **[[Run Online]](https://codecentral.devexpress.com/t285123/)**
 <!-- run online end -->
 
-This example demonstrates how to create a binary column's edit item template and add an upload control to the template to upload files in edit mode. A user can also delete uploaded files after after they are uploaded.
+This example demonstrates how to create a binary column's edit item template and add an upload control to the template to upload files in edit mode. A user can also delete uploaded files after they are uploaded.
 
 ![Upload files in edit mode](UploadFilesInEditMode.png)
 
@@ -66,7 +66,7 @@ protected void SqlDataSource1_Updating(object sender, System.Web.UI.WebControls.
 }
 ```
 
-When a user clicks the **Delete** button, the callback control sends a callback to the server and passes the uploaded file's name to the server. On the server, handle the callback control's `Callback` event to delete the file's data from the current session. To complete the delete operation on the client, handle the callback control's `CallbackComplete` event. In the handler, clear the label's text and hide the **Delete** button.
+When a user clicks the **Delete** button, the callback control sends a callback to the server and passes the uploaded file's name to the server. On the server, handle the callback control's `Callback` event to delete file data from the current session. To complete the delete operation on the client, handle the callback control's `CallbackComplete` event. In the handler, clear label text and hide the **Delete** button.
 
 ```js
 function OnClick(s, e) {
